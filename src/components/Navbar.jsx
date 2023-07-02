@@ -6,15 +6,15 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     const navItems = <>
-        <li className="pl-8 text-slate-200 text-lg "><a>Home</a></li>
-        <li className="pl-8 text-slate-200 text-lg "><a>About</a></li>
-        <li className="pl-8 text-slate-200 text-lg "><a>Skills</a></li>
-        <li className="pl-8 text-slate-200 text-lg "><a>Projects</a></li>
-        <li className="pl-8 text-slate-200 text-lg "><a>Contact</a></li>
+        <li className="pl-8 text-slate-200 text-lg "><a href="#home">Home</a></li>
+        <li className="pl-8 text-slate-200 text-lg "><a href="#about">About</a></li>
+        <li className="pl-8 text-slate-200 text-lg "><a href="#skills">Skills</a></li>
+        <li className="pl-8 text-slate-200 text-lg "><a href="#projects">Projects</a></li>
+        <li className="pl-8 text-slate-200 text-lg "><a href="#contact">Contact</a></li>
     </>
 
     return (
-        <div className="lg:px-32 bg-purple-900 text-white opacity-90">
+        <div className="lg:px-40 bg-purple-900 text-white opacity-90">
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="relative " onClick={() => setToggle(!toggle)}>

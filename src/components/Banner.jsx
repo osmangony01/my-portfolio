@@ -3,7 +3,7 @@ import bannerImg from '../../public/images/ban.gif'
 const Banner = () => {
     const resume = "https://drive.google.com/file/d/1pPjrdZU2izp6s50fDo4F5ZQT1JKgxEjT/view?usp=sharing";
     return (
-        <div className="lg:px-32 py-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-xl">
+        <div className="lg:px-40 py-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-xl">
             <div className='text-slate-200'>
                 <p>Hi there, I am </p>
                 <p className='text-orange-600 text-4xl font-semibold py-4'>Md Osman Gony</p>

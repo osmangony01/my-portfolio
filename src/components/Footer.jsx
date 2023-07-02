@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="lg:px-32 bg-[#141734] text-white py-8 ">
+        <div className="lg:px-32 bg-[#141734] text-white py-8 border border-slate-700 border-t-slate-100">
             <footer className="footer items-center p-4 ">
                 <div className="items-center grid-flow-col">
-                    <p className="text-xl">&copy; Copyright || {moment(new Date).format('YYYY')} Md Osman Gony - All right reserved</p>
+                    <p className="text-xl">&copy; Copyright || {moment(new Date).format('YYYY')} Md Osman Gony</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     

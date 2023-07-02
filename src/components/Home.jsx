@@ -1,8 +1,11 @@
-import About from "./About";
+import About from "./About/About";
 import Banner from "./Banner";
+import Contact from "./Contact/Contact";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Skill from "./Skill";
+import Projects from "./Projects/Projects";
+import Skill from "./Skill/Skill";
+
 import Random from "./random";
 
 const Home = () => {
@@ -13,15 +16,17 @@ const Home = () => {
                 <Banner></Banner>
                 <About></About>
                 <Skill></Skill>
+                {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto illo dolorum odio iure, consequatur iusto libero, natus numquam, id fuga alias molestiae inventore optio quaerat dolorem! Architecto aliquid odio nesciunt?</p> */}
 
+                <Projects></Projects>
+                <Contact></Contact>
                 {/* <Random></Random> */}
                 <Footer></Footer>
             </div>

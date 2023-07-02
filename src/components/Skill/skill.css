@@ -1,0 +1,15 @@
+.skill-shadow:hover{
+    box-shadow: 0px 0px 8px 1px #e0dede;
+}
+
+.js-color:hover{
+    color: yellow;
+    background: black;
+}
+
+.react-color:hover{
+    color: blue;
+}
+.ex-color:hover{
+    
+}
